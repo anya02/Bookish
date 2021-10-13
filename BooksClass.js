@@ -1,4 +1,4 @@
-class Books {
+class Book {
     constructor (id, name, isbn, numberOfCopies, author_id) {
         this.id = id;
         this.name = name;
@@ -8,4 +8,4 @@ class Books {
     }
 }
 
-module.exports = Books;
+module.exports = Book;
